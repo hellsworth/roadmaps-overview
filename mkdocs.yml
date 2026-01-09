@@ -4,6 +4,7 @@ nav:
   - Desktop Roadmap: desktop.md
   - Android Roadmap: android.md
   - iOS Roadmap: ios.md
+  - Services Roadmap: services.md
 
 theme:
   name: material
