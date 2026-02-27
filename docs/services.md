@@ -1,6 +1,6 @@
 Welcome to the **Thunderbird Services** roadmap!
 
-# :construction_site: Active
+# Active
 * **AWS Account Migration** - One of the items flagged from the Send security review was that we're using one AWS account for all of our products. To increase security, we'd like to split our operations into multiple accounts.
 * **Observability and Alerting** - While we have a few alerts and reporting set up right now, as we grow our customers we should be more proactive on events that lead to degraded performance or outages.  
 With this goal we intend to implement SLO and SLAs that will prepare us for a general release, and combine them in a reporting solution that can be viewed regularly. We shall have meaningful alerts that put us in front of customer inquiries.
@@ -22,7 +22,7 @@ Based on the feedback we receive we will investigate pricing tier improvements i
 * **Website Revamp 2026** - As we continue to grow our product palette, there are some ways we can organize the website in a more structured way. This goal complements initiatives from Marketing to implement the changes they suggest.
 * **Financial Contributions Appeals** - As an organization primarily funded by financial contributions from users, we need to implement a number of appeals in the year. This goal serves to implement the design/marketing changes for the appeals and roll them out using our infrastructure.
 
-# :clipboard: Planned
+# Planned
 * **Security Audit and Remediation** - As a regular practice, we'd like to engage in multiple security audits to improve both operational and product security. While the audit is external, potential followup tasks include infrastructure and product mitigations that need to be scoped.
 * **Pulumi and CI/CD improvements** - We're using Pulumi as an IaC solution, so that our deployments are reproducible and reviewable. As a foundational project we can make some improvements in this area that make deployments to stage and production seamless and don't impact developer time.  
 As an example, our network configuration is mostly a manual setup. If we're able to codify this setup, we can more easily migrate to other systems or ensure that our settings are intact.
@@ -48,7 +48,7 @@ We prefer open standards as are available, though we need to accept the reality 
 This goal includes some product and devrel exploration to figure out what would serve the community best: investing time into the current addons.thunderbird.net infrastructure to make it more modern, attempting to get closer to the latest upstream, or developing alternative ways that add-ons for Thunderbird can be maintained.
 * **Community Building: Good first bugs** - Train our engineers to identify good first bugs for community members and mentor contributors. Make this a regular part of engineering's activities.
 
-# :card_box: Backlog
+# Backlog
 * **Build attestations** - For supply chain security, and verifying that the builds we make actually land in our production infrastructure, we will investigate and deploy changes to reach the Build L2 or above level of the SLSA v1.0 framework.
 * **Blue/Green Deployments** - In order to increase uptime and reduce customer disruption, we plan to introduce blue/green deployments into our infrastructure. This way we can ensure a seamless rollback in case there are issues.  
 This item adds additional complexity and cost, therefore we'll first investigate the best approach and financial modeling.
