@@ -2,7 +2,7 @@
 
 Thunderbird Pro Services and Infrastructure Support. Follow the roadmap from active work to future ideas. Timelines may change as we learn and iterate.
 
-## Active
+## <i class="ph ph-pulse"></i> Active
 **Send UI Completion** - Send was the one product we haven't been able to complete UI overhaul work. We don't need to block the rollout for this, but we should work on this to keep it up to par with the other products and create consistency.
 **Dev environments for PRs** - We'd like to make it easier to test pull request changes without setting up too much infrastructure locally. Using dev environments will help us achieve this.
 **Financial Contributions Appeals** - As an organization primarily funded by financial contributions from users, we need to implement a number of appeals in the year. This goal serves to implement the design/marketing changes for the appeals and roll them out using our infrastructure.
@@ -10,7 +10,7 @@ Thunderbird Pro Services and Infrastructure Support. Follow the roadmap from act
 <https://ideas.tb.pro/p/show-active-login-sessions>
 **Services Logging** - We're collecting various logging in our services which can give us useful indicators of failure or debugging for common issues. By creating a more streamlined process for log analysis, we can reduce the risk of bugs in our services.
 
-## Planned
+## <i class="ph ph-calendar-blank"></i> Planned
 **MFA Support** - Multifactor authentication via TOTP or similar. We didn't get to this in 2025, and it is an essential security feature.  
 <https://ideas.tb.pro/p/multifactor-authentication>
 **Community Selected Initiative** - No doubt the community will have a bunch of great ideas on https://ideas.tb.pro that we can build on. We're making sure we have time to work on one of the top community suggestions that will fit well into the Thunderbird Pro ecosystem.
